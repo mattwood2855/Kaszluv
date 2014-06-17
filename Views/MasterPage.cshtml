@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Kaszluv</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../Css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="../Css/bootstrap-responsive.css" rel="stylesheet">
+      <!-- Sleek Css -->
+    <link href="../Css/sleek.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+	@Html.Partial("NavigationMenu")
+	@RenderBody()
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="~/js/bootstrap.js"></script>
+    <script src="../js/holder/holder.js"></script>
+  </body>
+</html>
